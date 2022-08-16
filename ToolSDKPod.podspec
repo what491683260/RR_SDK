@@ -11,7 +11,9 @@ Pod::Spec.new do |spec|
   spec.name         = "ToolSDKPod"
   spec.version      = "0.0.1"
   spec.summary      = "just testing."
-  spec.description  = "pod test"
+  spec.description  = <<-DESC 
+                          LZTool 是一个用于保存一些常用工具类的工具
+                   DESC
   spec.homepage     = "http:/aoto.io"
   spec.license      = "MIT"
   spec.author             = { "lWX1158436" => "lengqinzhang@h-partners.com" }
