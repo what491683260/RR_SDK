@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "lWX1158436" => "lengqinzhang@h-partners.com" }
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/what491683260/RR_SDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/what491683260/RR_SDK.git", :tag => spec.version}
 
   spec.source_files  = "ToolSDKPod", "ToolSDKPod/ToolSDK/*.{h,m}"
   spec.module_name = 'ToolSDKPod'
